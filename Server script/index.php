@@ -14,11 +14,11 @@ Geben sie hier den Text ein. (1 bis 80 Zeichen).
 <br>
 
 <?php
-if(isset($_POST['submit'])) {							// Wird ausgeführt wenn auf Absenden geklickt wird
+if(isset($_POST['submit'])) {							// Is executed when clicking on Submit
 	$data = ($_POST['textfeld']);
-	if(strlen($data) > 0 AND strlen($data) < 81 ) {  	//Nur wenn gültige Anzahl
+	if(strlen($data) > 0 AND strlen($data) < 81 ) {  			// Only if valid number
 		$path = 'MeinText.txt';
-		$data2 = $data . "EOT"; 						// EOT anhängen für Extraktion im ESP8266
+		$data2 = $data . "EOT"; 					// Attach EOT for extraction in ESP8266
 		$ret = file_put_contents($path, $data2, LOCK_EX);
 		if($ret === false) {
 			die('Es gab einen Fehler beim schreiben Textzeile');
@@ -26,7 +26,7 @@ if(isset($_POST['submit'])) {							// Wird ausgeführt wenn auf Absenden geklick
 		else {
 		}	
 	}
-	else {												// Zu wenige oder zu viele zeichen
+	else {									// Too few or too many characters
 		echo '<font color="red">';
 		echo "Das waren ". strlen($data). " Zeichen. Bitte minimum 1 Zeichen maximum 80 Zeichen eingeben";
 		echo '</font>';
@@ -44,7 +44,7 @@ if(isset($_POST['submit'])) {							// Wird ausgeführt wenn auf Absenden geklick
 </form>
 
 <?php
-if(strlen($data) > 0 AND strlen($data) < 81 ) {			// Bei gültiger Eingabe
+if(strlen($data) > 0 AND strlen($data) < 81 ) {					// With valid input
 	echo (strlen($data) ." Zeichen wurden geschrieben <br />");
 	echo ('Text: "'. utf8_encode($data) . '"');
 }
