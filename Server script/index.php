@@ -17,7 +17,7 @@ Geben sie hier den Text ein. (1 bis 80 Zeichen).
 if(isset($_POST['submit'])) {							// Is executed when clicking on Submit
 	$data = ($_POST['textfeld']);
 	if(strlen($data) > 0 AND strlen($data) < 81 ) {  			// Only if valid number
-		$path = 'MeinText.txt';
+		$path = 'myText.txt';
 		$data2 = $data . "EOT"; 					// Attach EOT for extraction in ESP8266
 		$ret = file_put_contents($path, $data2, LOCK_EX);
 		if($ret === false) {
@@ -43,7 +43,7 @@ if(isset($_POST['submit'])) {							// Is executed when clicking on Submit
 <input type="submit" name="submit" value="Senden" style="font-size:18pt">
 </form>
 
-<?php
+<?php // d.waldesbuehl@hispeed.ch
 if(strlen($data) > 0 AND strlen($data) < 81 ) {					// With valid input
 	echo (strlen($data) ." Zeichen wurden geschrieben <br />");
 	echo ('Text: "'. utf8_encode($data) . '"');
