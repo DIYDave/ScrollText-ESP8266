@@ -1,5 +1,9 @@
 // Resource for main file.
 // Picture of QR-Code for https://github.com/DIYDave/ScrollText-ESP8266
+// http://www.qr-code-generator.com/
+// Edited with XNview  http://www.xnview.com/en/xnview/
+// save as inverted 126x64  .xbm
+// d.waldesbuehl@hispeed.ch
 #define qr_code_width 128
 #define qr_code_height 64
 static unsigned char qr_code_bits[] = {
