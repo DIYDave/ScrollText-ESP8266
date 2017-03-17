@@ -1,4 +1,5 @@
 # ScrollText-ESP8266
+![alt tag](https://github.com/DIYDave/ScrollText-ESP8266/blob/master/Picture.jpg)
 <br>
 On Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
 ## Features:
