@@ -6,7 +6,7 @@ On Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
 - Automatic connection to a known WiFi network
 - If no known WiFi access point is nearby, automatically switched to the AP mode (Fall back function. )
 - Connect to a web server and read the contents of a text file
-- Display this text as a scroling text. 84 x 8 Dot matrix with Max7219 over hardware SPI
+- Display this text as a scroling text. 64 x 8 Dot matrix with Max7219 over hardware SPI
 - Display multiple texts with different animations
 - Show infos and QR-Code picture on a 128 x 64 OLED over software SPI
 - Upload Arduino Sketches over the air (OTA)
