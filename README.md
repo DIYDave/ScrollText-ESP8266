@@ -14,14 +14,19 @@ On Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
 <br>
 Material:
 <br>
-ESP8266 12E Breakboard:  https://goo.gl/epqoqw
+ESP8266 12E Breakboard:   http://s.click.aliexpress.com/e/bmFzz2ys
 <br>
-Dot Matrix Display 2x:       https://goo.gl/GxN03K
+Dot Matrix Display 2x:       http://s.click.aliexpress.com/e/b5pQfgZw
 <br>
-1,3" OLED Display:               https://goo.gl/FlzQZh
+1,3" OLED Display:               http://s.click.aliexpress.com/e/NrO6VzW
 <br>
 Real wood veneer: 2 x A4 :    http://shop.atlasholz.ch/furniere/furniermuster/Furniermuster-A4-Fineline-02-Eiche.html
 <br>
+Useful:
+
+Cheap but good Fluke Multimeter: http://s.click.aliexpress.com/e/tH9jMvIs
+<br>
+Cable set to: http://s.click.aliexpress.com/e/s7EqNMre
 <br>
 Libraries:
 <br>
@@ -32,3 +37,6 @@ Dot Matrix: MD_MAX72xx  https://github.com/MajicDesigns/MD_MAX72XX
 OLED text and Graphic: U8g2  https://github.com/olikraus/u8g2
 <br>
 Wifi: WiFiManager  https://github.com/tzapu/WiFiManager
+
+
+
