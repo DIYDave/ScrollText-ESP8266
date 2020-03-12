@@ -20,7 +20,7 @@ Dot Matrix Display 2x:       http://s.click.aliexpress.com/e/b5pQfgZw
 <br>
 1,3" OLED Display:               http://s.click.aliexpress.com/e/NrO6VzW
 <br>
-Real wood veneer: 2 x A4 :    http://shop.atlasholz.ch/furniere/furniermuster/Furniermuster-A4-Fineline-02-Eiche.html
+Real wood veneer: 2 x A4 :    https://cutt.ly/NtdbuPj  (www.atlasholz.ch Typ: "Muster Furniere Fineline Eiche 06")
 <br>
 Useful:
 
