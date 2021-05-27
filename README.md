@@ -24,7 +24,7 @@ Real wood veneer: 2 x A4 :    https://cutt.ly/NtdbuPj  (www.atlasholz.ch Typ: "M
 <br>
 Useful:
 
-Cheap but good Fluke Multimeter: http://s.click.aliexpress.com/e/tH9jMvIs
+Cheap but good Fluke Multimeter: https://s.click.aliexpress.com/e/_9Q278J
 <br>
 Perfect cable set for Multimeter: http://s.click.aliexpress.com/e/s7EqNMre
 <br>
