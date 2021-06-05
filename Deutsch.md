@@ -1,7 +1,7 @@
 # ScrollText-ESP8266
 ![alt tag](https://github.com/DIYDave/ScrollText-ESP8266/blob/master/photos/Picture_Cut.jpg)
 <br>
-Auf Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
+### Auf Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
 
 ## Neue Version 2.0 "easy to use"!
 + Einfache Konfiguration um als Webserver oder Client zu funktionieren.
