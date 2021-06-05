@@ -1,4 +1,4 @@
-# ScrollText-ESP8266
+# ScrollTextBox - ESP8266
 ![alt tag](https://github.com/DIYDave/ScrollText-ESP8266/blob/master/photos/Picture_Cut.jpg)
 <br>
 ### Auf Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
