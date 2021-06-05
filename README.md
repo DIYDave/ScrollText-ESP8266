@@ -35,7 +35,7 @@ Useful:
 - Inexpensive but good Fluke multimeter: https://s.click.aliexpress.com/e/_9Q278J
 - Very good cable set for this: Multimeter: http://s.click.aliexpress.com/e/s7EqNMre
 
-## Why only as a Visual Studio Code project?
+## Why only as a Visual Studio Code / platformIO project?
 I struggled a lot with the Arduino IDE and external libraries.
 If the project is opened again after a while, there are error messages when compiling because the core or the libraries are newer.
 Most of the questions I read in the YouTube comments concern exactly this problem.
