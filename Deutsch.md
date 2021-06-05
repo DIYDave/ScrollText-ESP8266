@@ -22,8 +22,9 @@ Auf Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
 
 - ESP8266 12E D1 mini pro:   https://s.click.aliexpress.com/e/_Ao1z9n
 - MAX7219 Dot Matrix Display 2x:       http://s.click.aliexpress.com/e/b5pQfgZw 
-  - (Genau diese Typen verwenden sonst muss ev. die Konfiguration geändert werden)
+  - (Genau diese Typen verwenden sonst muss das Programm geändert werden)
 - 1,3" OLED Display SPI:       http://s.click.aliexpress.com/e/NrO6VzW
+  - (Genau diese Typen verwenden sonst muss das Programm geändert werden)
 - Echtholz Furnier: 2 x A4 :    https://cutt.ly/NtdbuPj  (www.atlasholz.ch Typ: "Muster Furniere Fineline Eiche 06")
 
 Nützliches:
@@ -37,14 +38,14 @@ Sehr gutes Kabelset dazu: Multimeter: http://s.click.aliexpress.com/e/s7EqNMre
 Ich habe mich viel herumgeplagt mit der Arduino IDE und externen Bibliotheken.
 Wenn das Projekt nach einiger Zeit wieder geöffnet wird, gibt es Fehlermeldungen beim kompilieren, weil der Core oder die Bibliotheken neuer sind.
 Die meisten Fragen die ich in den Youtube Kommentaren lese, betreffen genau diese Problematik.
-Deshalb gabe ich mich 2018 entschieden nur noch mit Visual Studio Code und PlatformIO zu arbeiten.
+Deshalb habe ich mich 2018 entschieden nur noch mit Visual Studio Code und PlatformIO zu arbeiten. Und habe es nie bereut!
 Da können (müssen aber nicht) alle Bibliotheken in das Projekt integriert werden. Zudem kann die Version des ESP-Core fixiert werden.
 Ein solches Projekt kann problemlos auch nach Jahren auf anderen Rechnern kompiliert werden.
 
 Zudem können beliebige andere Resourcen wie Links oder Datenblätter im Projekt abgelegt werden.
 Bleibt zu erwähnen, dass das eine richtige IDE ist und nicht ein besserer Texteditor.😉
 
-Es können auch Arduino Sketches importiert werden. Beim erstellen kann mann mit den .ino Dateien weitermachen oder richtig mit .h und .cpp Dateien.
+Es können auch Arduino Sketches importiert werden. Bei neuen Projekten kann mann mit .ino Dateien weitermachen oder richtig mit .h und .cpp Dateien.
 Hier eine (von vielen) gute Übersicht und Anleitung zu VSC mit PlatformIO: https://devdrik.de/arduino-in-vs-code/
 
 ## Konfiguration
