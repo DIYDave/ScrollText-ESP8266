@@ -1,4 +1,4 @@
-### This is a outdated version please visit [2.0](https://github.com/DIYDave/ScrollText-ESP8266/tree/2.0)
+### This is a outdated version please select Branch 2.0
 
 # ScrollText-ESP8266
 ![alt tag](https://github.com/DIYDave/ScrollText-ESP8266/blob/1.14/photos/Picture_Cut.jpg)
