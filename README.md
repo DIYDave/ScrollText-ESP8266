@@ -2,6 +2,11 @@
 ![alt tag](https://github.com/DIYDave/ScrollText-ESP8266/blob/master/photos/Picture_Cut.jpg)
 <br>
 On Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
+
+## New version 2.0 easy to use!
++ Simple config for use as webserver od client
++ Auto generate QR-code for url
+
 ## Features:
 - Automatic connection to a known WiFi network
 - If no known WiFi access point is nearby, automatically switched to the AP mode (Fall back function. )
