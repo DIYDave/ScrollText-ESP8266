@@ -57,9 +57,9 @@ First of all it has to be determined whether the box should work as a web server
 
 ### web client
 - advantage:
-  - Can be reached worldwide at the same address. E.g. MeinHoster.com/esp
+  - Can be reached worldwide at the same address. E.g. MyWebhoster.com/scroll
 - disadvantage:
-  - Needs a web server (NAS, hoster) on which PHP can be run and the authorization to generate a text file.
+  - Needs a web server (Rasberry Pi, NAS, Hoster) on which PHP can be run and the authorization to generate a text file.
 
 This configuration can be made at this point in the "Wifi_Matrix_OLED.h" file. Comment out the line // or not.
 `` C ++
@@ -68,9 +68,9 @@ This configuration can be made at this point in the "Wifi_Matrix_OLED.h" file. C
 
 ### Further required settings if configured as a client:
 `` C ++
-    const String pathToServer = "myHoster.com/esp"; // For QR code
+    const String pathToServer = "myHoster.com/scroll"; // For QR code
     const char * host = "myHoster.com"; // host address
-    const String url = "/esp/MyText.txt"; // Path to the txt file
+    const String url = "/scroll/MeinText.txt"; // Path to the txt file
 ``
 All fixed texts and the animations used can be adapted directly in the program.
 
@@ -78,7 +78,6 @@ All fixed texts and the animations used can be adapted directly in the program.
 After the configuration has been made and the project has been loaded into the ESP, it continues as follows:
 Since no WiFi data has yet been saved, the ESP automatically switches to AP mode.
 A QR code is now displayed with which the settings for the AP are automatically adopted from the smartphone. (iOs and Android)
-If you are connected to the AP "Scrollbox", the WiFi Manager's website should open automatically. If not, enter the address 192.168.4.1 in the browser.
-A WLAN can now be selected here and the password entered. If the log-in is correct, the ESP connects to the WiFi and starts displaying texts.
+If you are then connected to the AP "Scrollbox" and have the WiFi settings open on the smartphone, the WiFi Manager's website should open automatically. If not, enter the address 192.168.4.1 in the browser. A WLAN can now be selected here and the password entered. If the log-in is correct, the ESP connects to the WiFi and starts displaying texts.
 
 From now on, a QR code is displayed with which you can go directly to the B 
