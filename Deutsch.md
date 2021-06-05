@@ -41,13 +41,14 @@ Ich habe mich viel herumgeplagt mit der Arduino IDE und externen Bibliotheken.
 Wenn das Projekt nach einiger Zeit wieder geöffnet wird, gibt es Fehlermeldungen beim kompilieren, weil der Core oder die Bibliotheken neuer sind.
 Die meisten Fragen die ich in den Youtube Kommentaren lese betreffen genau diese Problematik.
 Deshalb gabe ich mich 2018 entschieden nur noch mit Visual Studio Code und PlatformIO zu arbeiten.
-Da können alle Bibliotheken in das Projekt integriert werden. Zudem kann die Version des ESP-Core fixiert werden.
+Da können (müssen aber nicht) alle Bibliotheken in das Projekt integriert werden. Zudem kann die Version des ESP-Core fixiert werden.
 Ein solches Projekt kann problemlos auch nach Jahren auf anderen Rechnern kompiliert werden.
 
 Zudem könne auch beliebige andere Resourcen wie Links oder Datenblätter im Projekt abgelegt werden.
-Ganz zu scheigen das das eine richtige IDE ist und nicht ein besserer texteditor.😉
+Ganz zu scheigen das das eine richtige IDE ist und nicht ein besserer Texteditor.😉
 
-Hier eine gute Übersicht und Anleitung zu VSC mit PlatformIO: https://devdrik.de/arduino-in-vs-code/
+Es können auch Arduino Sketches importiert werden. Beim erstellen kann mann mit den .ino Dateien weitermachen oder richtig mit .h und .cpp Dateien.
+Hier eine (von vielen) gute Übersicht und Anleitung zu VSC mit PlatformIO: https://devdrik.de/arduino-in-vs-code/
 
 
 
