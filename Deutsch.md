@@ -82,7 +82,7 @@ Nun wird ein QR-Code angezeigt mit dem automatisch die Settings für den AP vom 
 Ist man mit dem AP "Scrollbox" verbunden sollte automatisch die Website des WiFi-Manager aufgehen. Wenn nicht, im Browser die Adresse 192.168.4.1 eingeben.
 Hier kann nun ein WLAN ausgewählt und das Passwort eingegeben werden. Stimmt das Log-In, verbindet sich der ESP mit dem WiFi und fängt an Texte anzuzeigen.
 
-Ab jetzt wir ein QR-Code angezeigt mit dem man direkt auf die Webseite der Box oder des entfernetn Host/Webservers gelangt. So Einfach ist das!
+Ab jetzt wir ein QR-Code angezeigt mit dem man direkt auf die Webseite der Box oder des entfernten Host/Webservers gelangt. So Einfach ist das!
 
 ### Versteckte Befehle:
 - Die Helligkeit der LED kann mit dem Text "Lumos=0" bis "Lumos=15" eingestellt werden. (Ohne "") Dieser Wert wird gespeichert.
