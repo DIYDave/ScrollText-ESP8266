@@ -8,11 +8,11 @@
 - [x] Automatically generates QR codes for the current web address and displays them. -> No more tedious creation of QR code images!
 
 ## Features:
-- Automatically connects to known access points
+- Automatically connects to a known access point
 - If no known access point is found, the ESP automatically creates an AP (configuration mode)
 - With the help of the WiFi manager, a network and the password can then be entered.
 - Either connects to a web server and reads the contents of a text file.
-- OR makes itself a web server to receive a text.
+- OR makes itself a web server to receive a text over a website.
 - This text is then displayed on the 8 x 64 LED matrix
 - Display of several consistent texts in various types of animation
 - Shows information and QR code on a 128 x 64 OLED display
@@ -30,10 +30,8 @@
 
 Useful:
 
-Inexpensive but good Fluke multimeter: https://s.click.aliexpress.com/e/_9Q278J
-<br>
-Very good cable set for this: Multimeter: http://s.click.aliexpress.com/e/s7EqNMre
-<br>
+- Inexpensive but good Fluke multimeter: https://s.click.aliexpress.com/e/_9Q278J
+- Very good cable set for this: Multimeter: http://s.click.aliexpress.com/e/s7EqNMre
 
 ## Why only as a Visual Studio Code project?
 I struggled a lot with the Arduino IDE and external libraries.
