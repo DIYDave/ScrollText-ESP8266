@@ -20,10 +20,10 @@
 
 ### Material:
 
-- ESP8266 12E D1 mini pro:   https://s.click.aliexpress.com/e/_Ao1z9n
-- MAX7219 Dot Matrix Display 2x:       http://s.click.aliexpress.com/e/b5pQfgZw 
+- ESP8266 12E D1 mini pro: |  https://s.click.aliexpress.com/e/_Ao1z9n
+- MAX7219 Dot Matrix Display 2x: |      http://s.click.aliexpress.com/e/b5pQfgZw 
   - (Genau diese Typen verwenden sonst muss das Programm geändert werden)
-- 1,3" OLED Display SPI:       http://s.click.aliexpress.com/e/NrO6VzW
+- 1,3" OLED Display SPI:   |    http://s.click.aliexpress.com/e/NrO6VzW
   - (Genau diese Typen verwenden sonst muss das Programm geändert werden)
 - Echtholz Furnier: 2 x A4 :    https://cutt.ly/NtdbuPj  (www.atlasholz.ch Typ: "Muster Furniere Fineline Eiche 06")
 
