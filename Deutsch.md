@@ -92,4 +92,4 @@ Ab jetzt wir ein QR-Code angezeigt mit dem man direkt auf die Webseite der Box o
 
 ### Ein letztes Ding:
 Wenn jemand diesen Code für sein eigenes Projekt verwenden kann, würde ich mich freuen ein Bild des fertigen Objektes zu erhalten. Die Email-Adresse steht im Programm.
-:🇨🇭
+
