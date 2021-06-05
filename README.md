@@ -42,10 +42,10 @@ All libraries can (but do not have to) be integrated into the project. In additi
 Such a project can easily be compiled on other computers even years later.
 
 In addition, any other resources such as links or data sheets can be stored in the project.
-It remains to be mentioned that this is a real IDE and not a better text editor
+It remains to be mentioned that this is a real IDE and not a better text editor.😉
 
 Arduino sketches can also be imported. With new projects you can continue with .ino files or correctly with .h and .cpp files.
-Here is a (of many) good overview and instructions for VSC with PlatformIO: https://devdrik.de/arduino-in-vs-code/
+Here is one (of many) good overview and how-to for VSC with PlatformIO: https://docs.platformio.org/en/latest/integration/ide/vscode.html
 
 ## configuration
 First of all it has to be determined whether the box should work as a web server or client.
