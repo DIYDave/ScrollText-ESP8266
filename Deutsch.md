@@ -89,7 +89,3 @@ Ab jetzt wir ein QR-Code angezeigt mit dem man direkt auf die Webseite der Box o
 - Der WiFiManager kann mit dem Text "WiFiReset" zurückgesetzt werden. Dies ist aber nur zu Testzwecken nötig.
   - Achtung: Bei Client Betrieb muss der Text direkt nach dem Reset geändert werden, da sonst jedesmal beim Start ein Reset gemacht wird. 😒
 
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
