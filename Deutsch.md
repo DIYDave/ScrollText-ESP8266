@@ -55,10 +55,10 @@ Nachteil:
 - Die IP-Adresse kann jederzeit ändern.(DHCP) Daher ist es notwendig den QR-Code zu scannen um auf die Webseite zu gelangen
 
 ### Webclient
-Vorteile:
-- Weltweit unter der gleichen Adresse erreichbar. Z.B. MeinHoster.com/esp
-Nachteil:
-- Braucht ein Webserver (NAS, Hoster) auf dem PHP ausgeführt werden kann und die Berechtigung eine text Datei zu generieren.
+- Vorteile:
+-- Weltweit unter der gleichen Adresse erreichbar. Z.B. MeinHoster.com/esp
+-Nachteil:
+-- Braucht ein Webserver (NAS, Hoster) auf dem PHP ausgeführt werden kann und die Berechtigung eine text Datei zu generieren.
 
 Diese Konfiguration kann in der Datei "Wifi_Matrix_OLED.h" an dieser Stelle vorgenommen werden.
 
