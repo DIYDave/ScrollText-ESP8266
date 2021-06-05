@@ -13,12 +13,12 @@
 Geben sie hier den Text ein. (1 bis 80 Zeichen). 
 <br>
 
-<?php
+<?php		// Swissmade by dave@waldesbuehl.com
 if(isset($_POST['submit'])) {							// Is executed when clicking on Submit
 	$data = ($_POST['textfeld']);
 	if(strlen($data) > 0 AND strlen($data) < 81 ) {  			// Only if valid number
 		$path = 'myText.txt';
-		$data2 = $data . "EOT"; 					// Attach EOT for extraction in ESP8266
+		$data2 = $data . "EOT\r"; 					// Attach EOT for extraction in ESP8266
 		$ret = file_put_contents($path, $data2, LOCK_EX);
 		if($ret === false) {
 			die('Es gab einen Fehler beim schreiben Textzeile');
@@ -43,7 +43,7 @@ if(isset($_POST['submit'])) {							// Is executed when clicking on Submit
 <input type="submit" name="submit" value="Senden" style="font-size:18pt">
 </form>
 
-<?php // d.waldesbuehl@hispeed.ch
+<?php 		// Swissmade by dave@waldesbuehl.com 
 if(strlen($data) > 0 AND strlen($data) < 81 ) {					// With valid input
 	echo (strlen($data) ." Zeichen wurden geschrieben <br />");
 	echo ('Text: "'. utf8_encode($data) . '"');
