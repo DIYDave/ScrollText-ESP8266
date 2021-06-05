@@ -49,13 +49,13 @@ Hier eine (von vielen) gute Übersicht und Anleitung zu VSC mit PlatformIO: http
 ## Konfiguration
 Als erstes muss bestimmt werden ob die Box als Webserver oder Client arbeiten soll.
 ### Webserver
-- Vorteile:
--- Kein externer Webserver / Hoster benötigt
+- Vorteil:
+  - Kein externer Webserver / Hoster benötigt
 - Nachteil:
--- Die IP-Adresse kann jederzeit ändern.(DHCP) Daher ist es notwendig den QR-Code zu scannen um auf die Webseite zu gelangen
+  - Die IP-Adresse kann jederzeit ändern.(DHCP) Daher ist es notwendig den QR-Code zu scannen um auf die Webseite zu gelangen
 
 ### Webclient
-- Vorteile:
+- Vorteil:
 -- Weltweit unter der gleichen Adresse erreichbar. Z.B. MeinHoster.com/esp
 - Nachteil:
 -- Braucht ein Webserver (NAS, Hoster) auf dem PHP ausgeführt werden kann und die Berechtigung eine text Datei zu generieren.
