@@ -62,6 +62,6 @@ Nachteil:
 
 Diese Konfiguration kann in der Datei "Wifi_Matrix_OLED.h" an dieser Stelle vorgenommen werden.
 
-'''C++
+```C++
 #define IamTheServer          // Enabled: act as web server; Disabled: act als client and needs a server
-'''
+```
