@@ -26,7 +26,7 @@
 - 1,3" OLED Display SPI:      http://s.click.aliexpress.com/e/NrO6VzW
   - (Genau diese Typen verwenden sonst muss das Programm geändert werden)
 - Echtholz Furnier: 2 x A4 :    https://cutt.ly/NtdbuPj  (www.atlasholz.ch Typ: "Muster Furniere Fineline Eiche 06")
-  - Es wird jedes helle Furnier mit max 0.5mm gehen. Das obige ist laminiert und daher einfacher zu bearbeiten.
+  - Es wird jedes helle Furnier mit ca. 0.5mm gehen. Das obige ist laminiert und daher einfacher zu bearbeiten.
 
 Nützliches:
 
