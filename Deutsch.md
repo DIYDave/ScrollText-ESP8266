@@ -64,3 +64,11 @@ Diese Konfiguration kann in der Datei "Wifi_Matrix_OLED.h" an dieser Stelle vorg
 ```C++
 #define IamTheServer          // Enabled: act as web server; Disabled: act als client and needs a server
 ```
+
+Weitere benötigte Einstellungen:
+In diesem Abschnitt werden die Daten eingegeben wenn die Box als Client werkeln soll:
+```C++
+    const String pathToServer   = "myHoster.com/esp";     // For QR-Code
+    const char* host            = "myHoster.com";         // Host adress
+    const String url            = "/esp/MeinText.txt";    // Path to the txt file
+```
