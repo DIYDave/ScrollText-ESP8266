@@ -76,11 +76,11 @@ Diese Konfiguration kann in der Datei "Wifi_Matrix_OLED.h" an dieser Stelle vorg
 Alle fixen Texte und die verwendeten Animationen können direkt im Programm angepasst werden.
 
 ## Inbetriebnahme
-Nachdem die Konfiguration gemacht ist und das Projekt in den ESP geladen ghet es so weiter.
+Nachdem die Konfiguration gemacht ist und das Projekt in den ESP geladen geht es so weiter:
 Da noch keine WiFi Daten gespeichert sind, wechselt der ESP automatisch in den AP mode.
 Nun wird ein QR-Code angezeigt mit dem automatisch die Settings für den AP vom Smartphone übernommen werden. (iOs und Android)
-Ist man mit dem AP "Scrollbox" verbunden sollte automatisch eine Website vom WiFi-Manager aufgehen. Wenn nicht, in Browser die Adresse 192.168.4.1 eingeben.
-Hier kann nun das WiFi ausgewählt und das Passwort eingegeben werden. Stimmt das Log-In, verbindet sich der ESP mit dem WiFi und fängt an Texte anzuzeigen.
+Ist man mit dem AP "Scrollbox" verbunden sollte automatisch die Website des WiFi-Manager aufgehen. Wenn nicht, im Browser die Adresse 192.168.4.1 eingeben.
+Hier kann nun ein WLAN ausgewählt und das Passwort eingegeben werden. Stimmt das Log-In, verbindet sich der ESP mit dem WiFi und fängt an Texte anzuzeigen.
 
 Ab jetzt wir ein QR-Code angezeigt mit dem man direkt auf die Webseite der Box oder des entfernetn Host/Webservers gelangt. So Einfach ist das!
 
