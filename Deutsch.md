@@ -39,14 +39,14 @@ Sehr gutes Kabelset dazu: Multimeter: http://s.click.aliexpress.com/e/s7EqNMre
 ## Warum nur noch als Visual Studio Code Projekt?
 Ich habe mich viel herumgeplagt mit der Arduino IDE und externen Bibliotheken.
 Wenn das Projekt nach einiger Zeit wieder geöffnet wird, gibt es Fehlermeldungen beim kompilieren, weil der Core oder die Bibliotheken neuer sind.
-Die meisten Fragen die ich in den Youtube Kommentaren lese geht es genau um diese Problematik.
+Die meisten Fragen die ich in den Youtube Kommentaren lese betreffen genau diese Problematik.
 Deshalb gabe ich mich 2018 entschieden nur noch mit Visual Studio Code und PlatformIO zu arbeiten.
-Da konnen alle Bibliotheken in das Projekt integriert werden. Zudem kann die Version des ESP-Core fixiert werden.
-Ein solches Projekt aknn problemlos auf anderen Rechnern kompiliert werden.
+Da können alle Bibliotheken in das Projekt integriert werden. Zudem kann die Version des ESP-Core fixiert werden.
+Ein solches Projekt kann problemlos auch nach Jahren auf anderen Rechnern kompiliert werden.
 
 Zudem könne auch beliebige andere Resourcen wie Links oder Datenblätter im Projekt abgelegt werden.
 Ganz zu scheigen das das eine richtige IDE ist und nicht ein besserer texteditor.😉
-
+Hier eine gute Übersicht und Anleitung zu VSC mit PlatformIO:
 
 
 
