@@ -46,7 +46,8 @@ Ein solches Projekt kann problemlos auch nach Jahren auf anderen Rechnern kompil
 
 Zudem könne auch beliebige andere Resourcen wie Links oder Datenblätter im Projekt abgelegt werden.
 Ganz zu scheigen das das eine richtige IDE ist und nicht ein besserer texteditor.😉
-Hier eine gute Übersicht und Anleitung zu VSC mit PlatformIO:
+
+Hier eine gute Übersicht und Anleitung zu VSC mit PlatformIO: https://devdrik.de/arduino-in-vs-code/
 
 
 
