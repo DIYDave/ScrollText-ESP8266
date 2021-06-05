@@ -5,7 +5,7 @@ Auf Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
 
 ## Neue Version 2.0 "easy to use"!
 + Einfache Konfiguration um als Webserver oder Client zu funktionieren.
-+ Generiert automatisch QR-code für die aktuelle Webadresse und zeigt diese an.
++ Generiert automatisch QR-code für die aktuelle Webadresse und zeigt diese an. Kein mühsames erstellen von QR-Code Bildern mehr!
 
 ## Features:
 - Verbindet sich automatisch mit bekannten Accesspoints
