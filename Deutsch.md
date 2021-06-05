@@ -5,8 +5,8 @@
 ### [English version of this text](https://github.com/DIYDave/ScrollText-ESP8266/blob/V2.0/README.md)
 
 ## 🔥 Neue Version 2.0 "easy to use"!
-- [x] Einfache Konfiguration um als Webserver oder Client zu funktionieren.
-- [x] Generiert automatisch QR-Codes für die aktuelle Webadresse und zeigt diese an. -> Kein mühsames erstellen von QR-Code Bildern mehr!
+- ✔Einfache Konfiguration um als Webserver oder Client zu funktionieren.
+- ✔ Generiert automatisch QR-Codes für die aktuelle Webadresse und zeigt diese an. -> Kein mühsames erstellen von QR-Code Bildern mehr!
 
 ## Features:
 - Verbindet sich automatisch mit bekannten Accesspoints
