@@ -49,19 +49,18 @@ Hier eine (von vielen) gute Übersicht und Anleitung zu VSC mit PlatformIO: http
 ## Konfiguration
 Als erstes muss bestimmt werden ob die Box als Webserver oder Client arbeiten soll.
 ### Webserver
-Vorteile:
-- Kein externer Webserver / Hoster benötigt
-Nachteil:
-- Die IP-Adresse kann jederzeit ändern.(DHCP) Daher ist es notwendig den QR-Code zu scannen um auf die Webseite zu gelangen
+- Vorteile:
+-- Kein externer Webserver / Hoster benötigt
+- Nachteil:
+-- Die IP-Adresse kann jederzeit ändern.(DHCP) Daher ist es notwendig den QR-Code zu scannen um auf die Webseite zu gelangen
 
 ### Webclient
 - Vorteile:
 -- Weltweit unter der gleichen Adresse erreichbar. Z.B. MeinHoster.com/esp
--Nachteil:
+- Nachteil:
 -- Braucht ein Webserver (NAS, Hoster) auf dem PHP ausgeführt werden kann und die Berechtigung eine text Datei zu generieren.
 
-Diese Konfiguration kann in der Datei "Wifi_Matrix_OLED.h" an dieser Stelle vorgenommen werden.
-
+Diese Konfiguration kann in der Datei "Wifi_Matrix_OLED.h" an dieser Stelle vorgenommen werden. Dazu die Zeile auskommentueren // oder nicht.
 ```C++
 #define IamTheServer          // Enabled: act as web server; Disabled: act als client and needs a server
 ```
