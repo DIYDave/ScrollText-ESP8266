@@ -73,3 +73,18 @@ Diese Konfiguration kann in der Datei "Wifi_Matrix_OLED.h" an dieser Stelle vorg
     const char* host            = "myHoster.com";         // Host adress
     const String url            = "/esp/MeinText.txt";    // Path to the txt file
 ```
+Alle fixen Texte und die verwendeten Animationen können direkt im Programm angepasst werden.
+
+## Inbetriebnahme
+Nachdem die Konfiguration gemacht ist und das Projekt in den ESP geladen ghet es so weiter.
+Da noch keine WiFi Daten gespeichert sind, wechselt der ESP automatisch in den AP mode.
+Nun wird ein QR-Code angezeigt mit dem automatisch die Settings für den AP vom Smartphone übernommen werden. (iOs und Android)
+Ist man mit dem AP "Scrollbox" verbunden sollte automatisch eine Website vom WiFi-Manager aufgehen. Wenn nicht, in Browser die Adresse 192.168.4.1 eingeben.
+Hier kann nun das WiFi ausgewählt und das Passwort eingegeben werden. Stimmt das Log-In, verbindet sich der ESP mit dem WiFi und fängt an Texte anzuzeigen.
+
+Ab jetzt wir ein QR-Code angezeigt mit dem man direkt auf die Webseite der Box oder des entfernetn Host/Webservers gelangt. So Einfach ist das!
+
+### Versteckte Befehle:
+- Die Helligkeit der LED kann mit dem Text "Lumos=0" bis "Lumos=15" eingestellt werden. (Ohne "") Dieser Wert wird gespeichert.
+- Der WiFiManager kann zurückgesetzt werden mit dem Text "WiFiReset" Dies ist aber nur zu Testzwecken nötig.
+  - Achtung: Bei Client Betrieb muss der Text direkt nach dem Reset geändert werden, da sonst jedesmal beim Start ein Reset gemacht wird. 😒
