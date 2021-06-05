@@ -19,7 +19,7 @@ Auf Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
 - Erlaubt Programmupload "over the air" (OTA) ohne USB Kabel
 <br>
 <br>
-Material:
+# Material:
 <br>
 ESP8266 12E Breakboard:   http://s.click.aliexpress.com/e/bmFzz2ys
 <br>
@@ -39,13 +39,13 @@ Sehr gutes Kabelset dazu: Multimeter: http://s.click.aliexpress.com/e/s7EqNMre
 ## Warum nur noch als Visual Studio Code Projekt?
 Ich habe mich viel herumgeplagt mit der Arduino IDE und externen Bibliotheken.
 Wenn das Projekt nach einiger Zeit wieder geöffnet wird, gibt es Fehlermeldungen beim kompilieren, weil der Core oder die Bibliotheken neuer sind.
-Die meisten Fragen die ich in den Youtube Kommentaren lese betreffen genau diese Problematik.
+Die meisten Fragen die ich in den Youtube Kommentaren lese, betreffen genau diese Problematik.
 Deshalb gabe ich mich 2018 entschieden nur noch mit Visual Studio Code und PlatformIO zu arbeiten.
 Da können (müssen aber nicht) alle Bibliotheken in das Projekt integriert werden. Zudem kann die Version des ESP-Core fixiert werden.
 Ein solches Projekt kann problemlos auch nach Jahren auf anderen Rechnern kompiliert werden.
 
-Zudem könne auch beliebige andere Resourcen wie Links oder Datenblätter im Projekt abgelegt werden.
-Ganz zu scheigen das das eine richtige IDE ist und nicht ein besserer Texteditor.😉
+Zudem können beliebige andere Resourcen wie Links oder Datenblätter im Projekt abgelegt werden.
+Bleibt zu erwähnen, dass das eine richtige IDE ist und nicht ein besserer Texteditor.😉
 
 Es können auch Arduino Sketches importiert werden. Beim erstellen kann mann mit den .ino Dateien weitermachen oder richtig mit .h und .cpp Dateien.
 Hier eine (von vielen) gute Übersicht und Anleitung zu VSC mit PlatformIO: https://devdrik.de/arduino-in-vs-code/
