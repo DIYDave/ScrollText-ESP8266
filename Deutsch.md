@@ -86,5 +86,5 @@ Ab jetzt wir ein QR-Code angezeigt mit dem man direkt auf die Webseite der Box o
 
 ### Versteckte Befehle:
 - Die Helligkeit der LED kann mit dem Text "Lumos=0" bis "Lumos=15" eingestellt werden. (Ohne "") Dieser Wert wird gespeichert.
-- Der WiFiManager kann zurückgesetzt werden mit dem Text "WiFiReset" Dies ist aber nur zu Testzwecken nötig.
+- Der WiFiManager kann mit dem Text "WiFiReset" zurückgesetzt werden. Dies ist aber nur zu Testzwecken nötig.
   - Achtung: Bei Client Betrieb muss der Text direkt nach dem Reset geändert werden, da sonst jedesmal beim Start ein Reset gemacht wird. 😒
