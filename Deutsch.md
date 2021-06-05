@@ -17,18 +17,14 @@ Auf Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
 - Anzeige mehrerer gleichbleibender Texte in diversen Animationsarten
 - Zeigt Infos und QR-Code auf einem 128 x 64 OLED Display
 - Erlaubt Programmupload "over the air" (OTA) ohne USB Kabel
-<br>
-<br>
+
 ### Material:
-<br>
-ESP8266 12E Breakboard:   http://s.click.aliexpress.com/e/bmFzz2ys
-<br>
-Dot Matrix Display 2x:       http://s.click.aliexpress.com/e/b5pQfgZw
-<br>
-1,3" OLED Display:               http://s.click.aliexpress.com/e/NrO6VzW
-<br>
-Echtholz Furnier: 2 x A4 :    https://cutt.ly/NtdbuPj  (www.atlasholz.ch Typ: "Muster Furniere Fineline Eiche 06")
-<br>
+
+- ESP8266 12E Breakboard:   http://s.click.aliexpress.com/e/bmFzz2ys
+- Dot Matrix Display 2x:       http://s.click.aliexpress.com/e/b5pQfgZw
+- 1,3" OLED Display:               http://s.click.aliexpress.com/e/NrO6VzW
+- Echtholz Furnier: 2 x A4 :    https://cutt.ly/NtdbuPj  (www.atlasholz.ch Typ: "Muster Furniere Fineline Eiche 06")
+
 Nützliches:
 
 Günstiges aber gutes Fluke Multimeter: https://s.click.aliexpress.com/e/_9Q278J
