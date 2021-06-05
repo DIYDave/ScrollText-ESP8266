@@ -80,4 +80,13 @@ Since no WiFi data has yet been saved, the ESP automatically switches to AP mode
 A QR code is now displayed with which the settings for the AP are automatically adopted from the smartphone. (iOs and Android)
 If you are then connected to the AP "Scrollbox" and have the WiFi settings open on the smartphone, the WiFi Manager's website should open automatically. If not, enter the address 192.168.4.1 in the browser. A WLAN can now be selected here and the password entered. If the log-in is correct, the ESP connects to the WiFi and starts displaying texts.
 
-From now on, a QR code is displayed with which you can go directly to the B 
+From now on, a QR code is displayed with which you can go directly to the website of the box or the remote host. As simple as that!
+
+### Hidden commands:
+- The brightness of the LED can be set with the text "Lumos = 0" to "Lumos = 15". (Without "") This value is saved.
+- The WiFiManager can be reset with the text "WiFiReset". However, this is only necessary for test purposes.
+   - Caution: In client mode, the text must be changed immediately after the reset, otherwise a reset will be made every time the system is started. 😒
+
+### One last thing:
+If someone can use this code for their own project, I would be happy to receive a picture of the finished object. The email address is in the code. 
+
