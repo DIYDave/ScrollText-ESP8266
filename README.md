@@ -4,7 +4,7 @@
 ### [Watch on Youtube](https://www.youtube.com/watch?v=k4Ux_I4Gl30)     
 ### [Deutsche Version dieses Textes](https://github.com/DIYDave/ScrollText-ESP8266/blob/V2.0/Deutsch.md)
 
-## New version 2.0 "easy to use"!
+## 🔥 New version 2.0 "easy to use"! 
 - [x] Simple configuration to function as a web server or client.
 - [x] Automatically generates QR codes for the current web address and displays them. -> No more tedious creation of QR code images!
 
