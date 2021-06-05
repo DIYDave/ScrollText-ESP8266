@@ -4,7 +4,7 @@
 ### [Auf Youtube anschauen](https://www.youtube.com/watch?v=k4Ux_I4Gl30)     
 ### [English version of this text](https://github.com/DIYDave/ScrollText-ESP8266/blob/V2.0/README.md)
 
-## Neue Version 2.0 "easy to use"!
+## 🔥 Neue Version 2.0 "easy to use"!
 - [x] Einfache Konfiguration um als Webserver oder Client zu funktionieren.
 - [x] Generiert automatisch QR-Codes für die aktuelle Webadresse und zeigt diese an. -> Kein mühsames erstellen von QR-Code Bildern mehr!
 
@@ -91,4 +91,5 @@ Ab jetzt wir ein QR-Code angezeigt mit dem man direkt auf die Webseite der Box o
   - Achtung: Bei Client Betrieb muss der Text direkt nach dem Reset geändert werden, da sonst jedesmal beim Start ein Reset gemacht wird. 😒
 
 ### Ein letztes Ding:
-Wenn jemand diesen Code für sein eigenes Projekt verwenden kann, würde ich mich freuen ein Bild des fertigen Objektes zu erhalten. Die Email-Adresse steht im Programm
+Wenn jemand diesen Code für sein eigenes Projekt verwenden kann, würde ich mich freuen ein Bild des fertigen Objektes zu erhalten. Die Email-Adresse steht im Programm.
+🇨🇭
