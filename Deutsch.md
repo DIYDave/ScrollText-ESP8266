@@ -56,9 +56,9 @@ Als erstes muss bestimmt werden ob die Box als Webserver oder Client arbeiten so
 
 ### Webclient
 - Vorteil:
--- Weltweit unter der gleichen Adresse erreichbar. Z.B. MeinHoster.com/esp
+  - Weltweit unter der gleichen Adresse erreichbar. Z.B. MeinHoster.com/esp
 - Nachteil:
--- Braucht ein Webserver (NAS, Hoster) auf dem PHP ausgeführt werden kann und die Berechtigung eine text Datei zu generieren.
+  - Braucht ein Webserver (NAS, Hoster) auf dem PHP ausgeführt werden kann und die Berechtigung eine text Datei zu generieren.
 
 Diese Konfiguration kann in der Datei "Wifi_Matrix_OLED.h" an dieser Stelle vorgenommen werden. Dazu die Zeile auskommentueren // oder nicht.
 ```C++
