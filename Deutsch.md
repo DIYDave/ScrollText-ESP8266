@@ -20,9 +20,9 @@ Auf Youtube: https://www.youtube.com/watch?v=k4Ux_I4Gl30
 
 ### Material:
 
-- ESP8266 12E Breakboard:   http://s.click.aliexpress.com/e/bmFzz2ys
+- ESP8266 12E D1 mini pro:   https://s.click.aliexpress.com/e/_Ao1z9n
 - Dot Matrix Display 2x:       http://s.click.aliexpress.com/e/b5pQfgZw
-- 1,3" OLED Display:               http://s.click.aliexpress.com/e/NrO6VzW
+- 1,3" OLED Display SPI:       http://s.click.aliexpress.com/e/NrO6VzW
 - Echtholz Furnier: 2 x A4 :    https://cutt.ly/NtdbuPj  (www.atlasholz.ch Typ: "Muster Furniere Fineline Eiche 06")
 
 Nützliches:
@@ -46,5 +46,22 @@ Bleibt zu erwähnen, dass das eine richtige IDE ist und nicht ein besserer Texte
 Es können auch Arduino Sketches importiert werden. Beim erstellen kann mann mit den .ino Dateien weitermachen oder richtig mit .h und .cpp Dateien.
 Hier eine (von vielen) gute Übersicht und Anleitung zu VSC mit PlatformIO: https://devdrik.de/arduino-in-vs-code/
 
+## Konfiguration
+Als erstes muss bestimmt werden ob die Box als Webserver oder Client arbeiten soll.
+### Webserver
+Vorteile:
+- Kein externer Webserver / Hoster benötigt
+Nachteil:
+- Die IP-Adresse kann jederzeit ändern.(DHCP) Daher ist es notwendig den QR-Code zu scannen um auf die Webseite zu gelangen
 
+### Webclient
+Vorteile:
+- Weltweit unter der gleichen Adresse erreichbar. Z.B. MeinHoster.com/esp
+Nachteil:
+- Braucht ein Webserver (NAS, Hoster) auf dem PHP ausgeführt werden kann und die Berechtigung eine text Datei zu generieren.
 
+Diese Konfiguration kann in der Datei "Wifi_Matrix_OLED.h" an dieser Stelle vorgenommen werden.
+
+'''C++
+#define IamTheServer          // Enabled: act as web server; Disabled: act als client and needs a server
+'''
