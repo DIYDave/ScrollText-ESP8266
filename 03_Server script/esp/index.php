@@ -13,13 +13,13 @@
 Geben sie hier den Text ein. (1 bis 120 Zeichen). 
 <br>
 
-<?php
-if(isset($_POST['submit'])) {							// Wird ausgeführt wenn auf Absenden geklickt wird
+<?php	// swissmade by dave@waldesbuehl.com
+if(isset($_POST['submit'])) {							// Wird ausgefÃ¼hrt wenn auf Absenden geklickt wird
 	$data = ($_POST['textfeld']);
-	if(strlen($data) > 0 AND strlen($data) < 121 ) {  	//Nur wenn gültige Anzahl
+	if(strlen($data) > 0 AND strlen($data) < 121 ) {  	//Nur wenn gÃ¼ltige Anzahl
 		$path = 'MeinText.txt';
-		//$data2 = $data . "EOT" . PHP_EOL; 		//EOT und CrLf anhängen für Extraktion im ESP8266
-		$data2 = $data . "EOT\r"; 		//EOT und CrLf anhängen für Extraktion im ESP8266
+		//$data2 = $data . "EOT" . PHP_EOL; 		//EOT und CrLf anhÃ¤ngen fÃ¼r Extraktion im ESP8266
+		$data2 = $data . "EOT\r"; 		//EOT und CrLf anhÃ¤ngen fÃ¼r Extraktion im ESP8266
 		$ret = file_put_contents($path, $data2, LOCK_EX);
 		if($ret === false) {
 			die('Es gab einen Fehler beim schreiben Textzeile');
@@ -45,7 +45,7 @@ if(isset($_POST['submit'])) {							// Wird ausgeführt wenn auf Absenden geklick
 </form>
 
 <?php
-if(strlen($data) > 0 AND strlen($data) < 121 ) {			// Bei gültiger Eingabe
+if(strlen($data) > 0 AND strlen($data) < 121 ) {			// Bei gÃ¼ltiger Eingabe
 	echo (strlen($data) ." Zeichen wurden geschrieben <br />");
 	echo ('Text: "'. utf8_encode($data) . '"');
 }
