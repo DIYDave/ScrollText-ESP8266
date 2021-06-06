@@ -56,10 +56,11 @@ First of all it has to be determined whether the box should work as a web server
   - No external web server / hoster required
 - disadvantage:
   - The IP address can change at any time. (DHCP) It is therefore necessary to scan the QR code to access the website
-
+  - When switching on, the standard text is always displayed
 ### web client
 - advantage:
   - Can be reached worldwide at the same address. E.g. MyWebhoster.com/scroll
+  - The last text used is reloaded when the device is switched on. 
 - disadvantage:
   - Needs a web server (Rasberry Pi, NAS, Hoster) on which PHP can be run and the authorization to generate a text file.
 
