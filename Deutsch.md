@@ -58,10 +58,12 @@ Als erstes muss bestimmt werden ob die Box als Webserver oder Client arbeiten so
   - Kein externer Webserver / Hoster benötigt
 - Nachteil:
   - Die IP-Adresse kann jederzeit ändern.(DHCP) Daher ist es notwendig den QR-Code zu scannen um auf die Webseite zu gelangen
+  - Beim Einschalten wird immer der Standard Text angezeigt
 
 ### Webclient
 - Vorteil:
   - Weltweit unter der gleichen Adresse erreichbar. Z.B. MeinHoster.com/esp
+  - Der letzte verwendete Text wird beim einschalten wieder geladen.
 - Nachteil:
   - Braucht ein Webserver (NAS, Hoster) auf dem PHP ausgeführt werden kann und die Berechtigung eine text Datei zu generieren.
 
