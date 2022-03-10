@@ -1,1 +1,3 @@
 *.php linguist-detectable=false
+*.cpp linguist-detectable=true
+*.ino linguist-detectable=true
